@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DepthPlayer — 2D to 3D video player for Meta Quest</title>
+<meta name="description" content="DepthPlayer turns your everyday 2D videos and photos into immersive 3D, converted in real time and entirely on your Meta Quest. No PC, no cloud, no account.">
+<link rel="icon" type="image/png" href="assets/icon.png">
+<style>
+  :root{
+    --bg:#14161f; --card:#1a1d29; --line:rgba(255,255,255,.07);
+    --text:#e8eaf0; --muted:#98a0ae; --accent:#5aa2ff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans SC",sans-serif;
+    line-height:1.65;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:72px 24px 48px}
+  header{text-align:center;margin-bottom:40px}
+  .icon{width:112px;height:112px;border-radius:26px;display:block;margin:0 auto 22px;
+    box-shadow:0 18px 50px rgba(0,0,0,.55)}
+  h1{font-size:44px;margin:0 0 8px;letter-spacing:-.5px}
+  .tagline{color:var(--muted);font-size:19px;margin:0}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:18px;
+    padding:26px 30px;margin:0 0 22px}
+  .lead{font-size:17px;margin:0}
+  ul.features{list-style:none;padding:0;margin:0}
+  ul.features li{padding:7px 0 7px 30px;position:relative}
+  ul.features li:before{content:"";position:absolute;left:4px;top:15px;width:10px;height:10px;
+    border-radius:3px;background:var(--accent);opacity:.9}
+  figure{margin:0 0 22px}
+  figure img{width:100%;border-radius:18px;border:1px solid var(--line);display:block}
+  nav{display:flex;gap:14px;justify-content:center;margin:34px 0 14px;flex-wrap:wrap}
+  nav a{color:var(--accent);text-decoration:none;border:1px solid var(--line);
+    padding:10px 22px;border-radius:999px;font-size:15px}
+  nav a:hover{border-color:var(--accent)}
+  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:26px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img class="icon" src="assets/icon.png" alt="DepthPlayer app icon">
+    <h1>DepthPlayer</h1>
+    <p class="tagline">2D &rarr; 3D video player for Meta Quest</p>
+  </header>
+
+  <div class="card">
+    <p class="lead">DepthPlayer turns your everyday 2D videos and photos into immersive 3D —
+    converted in real time, entirely on your headset. No PC, no cloud, no uploads: everything
+    runs on your Meta Quest, and your library stays yours.</p>
+  </div>
+
+  <div class="card">
+    <ul class="features">
+      <li>Real-time 2D &rarr; 3D conversion, fully on-device</li>
+      <li>Local files — or stream from your own NAS (SMB / WebDAV / DLNA)</li>
+      <li>Tune 3D depth to taste; toggle 3D on and off instantly</li>
+      <li>No account, no ads, no tracking</li>
+      <li>Built for Meta Quest 3 / Quest 3S</li>
+    </ul>
+  </div>
+
+  <figure>
+    <img src="assets/screenshot.png" alt="DepthPlayer media library on Meta Quest">
+  </figure>
+
+  <nav>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="mailto:1351369437@qq.com">Contact</a>
+  </nav>
+  <footer>&copy; 2026 MYDTX &middot; DepthPlayer</footer>
+</div>
+</body>
+</html>
