@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>DepthPlayer — 2D to 3D video player for Meta Quest</title>
-<meta name="description" content="DepthPlayer turns your everyday 2D videos and photos into immersive 3D, converted in real time and entirely on your Meta Quest. No PC, no cloud, no account.">
+<meta name="description" content="DepthPlayer is a media player for Meta Quest 3 and Quest 3S that shows your own 2D videos and photos in 3D, converted in real time on the headset. No account, no uploads, no generative AI.">
 <link rel="icon" type="image/png" href="assets/icon.png">
 <style>
   :root{
@@ -22,6 +22,7 @@
     box-shadow:0 18px 50px rgba(0,0,0,.55)}
   h1{font-size:44px;margin:0 0 8px;letter-spacing:-.5px}
   .tagline{color:var(--muted);font-size:19px;margin:0}
+  h2{font-size:19px;margin:0 0 12px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:18px;
     padding:26px 30px;margin:0 0 22px}
   .lead{font-size:17px;margin:0}
@@ -43,34 +44,62 @@
   <header>
     <img class="icon" src="assets/icon.png" alt="DepthPlayer app icon">
     <h1>DepthPlayer</h1>
-    <p class="tagline">2D &rarr; 3D video player for Meta Quest</p>
+    <p class="tagline">2D &rarr; 3D media player for Meta Quest</p>
   </header>
 
   <div class="card">
-    <p class="lead">DepthPlayer turns your everyday 2D videos and photos into immersive 3D —
-    converted in real time, entirely on your headset. No PC, no cloud, no uploads: everything
-    runs on your Meta Quest, and your library stays yours.</p>
+    <h2>What DepthPlayer does</h2>
+    <p class="lead">DepthPlayer is a media player for <strong>Meta Quest 3 and Quest 3S</strong>.
+    It plays the videos and photos you already own and displays them in 3D by estimating depth
+    for each frame on the headset itself — no PC, no uploads, and no account with us.</p>
   </div>
 
   <div class="card">
+    <h2>Features</h2>
     <ul class="features">
       <li>Real-time 2D &rarr; 3D conversion, fully on-device</li>
       <li>Local files — or stream from your own NAS (SMB / WebDAV / DLNA) or cloud drive (Google Drive / OneDrive)</li>
       <li>Tune 3D depth to taste; toggle 3D on and off instantly</li>
+      <li>Subtitles and multiple audio tracks</li>
       <li>No account with us, no ads, no tracking</li>
-      <li>Built for Meta Quest 3 / Quest 3S</li>
     </ul>
+  </div>
+
+  <div class="card">
+    <h2>How it works</h2>
+    <ul class="features">
+      <li>Open a video or photo from your headset, your own media server, or a cloud drive you connect yourself.</li>
+      <li>The app estimates depth for each frame on-device and renders a stereoscopic view in real time.</li>
+      <li>Your files are never modified, never uploaded, and never shared.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>What DepthPlayer is not</h2>
+    <p class="lead">DepthPlayer is <strong>not a generative AI tool</strong>. It does not create,
+    synthesize, edit, or alter images or video; it does not swap faces; and it has no social,
+    publishing, or sharing features. It only displays media that you already have, converting
+    the existing frames for stereo viewing on your own headset.</p>
   </div>
 
   <figure>
     <img src="assets/screenshot.png" alt="DepthPlayer media library on Meta Quest">
   </figure>
 
+  <div class="card">
+    <h2>Requirements</h2>
+    <ul class="features">
+      <li>Meta Quest 3 or Quest 3S</li>
+      <li>No sign-in is required to view this page, and cloud drives are optional — they connect directly to the provider you choose.</li>
+    </ul>
+  </div>
+
   <nav>
     <a href="privacy.html">Privacy Policy</a>
-    <a href="mailto:1351369437@qq.com">Contact</a>
+    <a href="terms.html">Terms of Service</a>
+    <a href="mailto:1351369437@qq.com">Support</a>
   </nav>
-  <footer>&copy; 2026 MYDTX &middot; DepthPlayer</footer>
+  <footer>DepthPlayer by MYDTX &middot; &copy; 2026 MYDTX</footer>
 </div>
 </body>
 </html>

@@ -90,7 +90,9 @@
     identifiers; or the content, names, or viewing history of your files. The app contains no
     advertising or analytics SDKs and does not transmit your data to us. When you connect a
     cloud drive, data is exchanged directly between your headset and that provider, under your
-    own account and their terms.</p>
+    own account and their terms. The only account details the app keeps are the email address
+    and display name returned by the cloud provider you connected; they are stored on your
+    device only, to label the account, and are never sent to us.</p>
 
     <h2>5. Data sharing</h2>
     <p>We do not share, sell, rent, or transfer user data to third parties, because we do not
@@ -122,13 +124,17 @@
     yourself; any data you choose to place on those servers is governed by your own arrangements
     with them.</p>
     <p><strong>Google Drive.</strong> If you choose to connect Google Drive, the app uses the
-    Google Drive API with the <code>drive.readonly</code> scope. DepthPlayer's use and transfer
-    to any other app of information received from Google APIs will adhere to the
+    Google Drive API with the <code>drive.readonly</code> scope. The app reads the file names,
+    folder names and IDs, sizes and MIME types needed to display your library, and reads the
+    content of a file only when you choose to open it. It does not access Gmail, Contacts,
+    Calendar, or any other Google service. DepthPlayer's use and transfer to any other app of
+    information received from Google APIs will adhere to the
     <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API
     Services User Data Policy</a>, including the Limited Use requirements. Google user data is
     used only to let you browse and play the files you select in the app; it is not sold, is not
     used for advertising, is not used to train machine-learning models, and is not shared with
-    third parties. You can review or revoke the app's access at any time at
+    third parties. No copy of your file content is kept by us; playback buffers are temporary and
+    cleared when playback ends. You can review or revoke the app's access at any time at
     <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
     Disconnecting the account in the app also deletes the stored tokens from your device.</p>
     <p><strong>Microsoft OneDrive.</strong> If you choose to connect OneDrive, the app uses
